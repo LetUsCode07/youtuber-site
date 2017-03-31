@@ -1,0 +1,97 @@
+<head>
+<style>
+       #map {
+        height: 300px;
+        width: 500px;
+       }
+    </style>
+    <title></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    
+    <h3>Favourite (Stamford Hill)!</h3>
+     <div class="container">
+  
+  <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Links
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href=""></a></li>
+      <li><a href="/e1">Episode 1</a></li>
+      <li ><a href="/e2">Episode 2</a></li>
+      <li ><a href="/e3">Episode 3</a></li>
+      <li><a href="/e4">Episode 4</a></li>
+      <li><a href="/e5">Episode 5</a></li>
+      <li ><a href="/e6">Episode 6</a></li>
+      <li ><a href="/e7">Episode 7</a></li>
+      <li><a href="/e8">Episode 8</a></li>
+      <li><a href="/e10">Episode 10</a></li>
+      <li ><a href="/e11">Episode 11</a></li>
+      <li ><a href="/e12">Episode 12</a></li>
+      <li><a href="/e13">Episode 13</a></li>
+      <li><a href="/e14">Episode 14</a></li>
+       <li><a href="/e15">Episode 15</a></li>
+      <li><a href="/">Newest</a></li>
+      <li><a href="/contact">Contact</a></li>
+
+    </ul>
+  </div>
+</div>
+
+
+
+
+<div id="slider" class="project">
+  <a href="" class="control_next">>></a>
+  <a href="" class="control_prev"><</a>
+  <ul>
+<li>
+    
+
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: 51.5755506, lng: -0.074347};
+        
+         var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: uluru
+        });
+        
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+         }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_IlvT1Vm4IyGA_MPkDTrcRo9aLwD7vg8&callback=initMap">
+    </script>
+    </li>
+    <li>
+    
+
+    <iframe width="500px" height="300px"
+src="https://www.youtube.com/embed/SOL-fJM2m1I">
+</iframe>
+</li>
+<li>
+
+
+<audio controls >
+  <source src="16.mp3" type="audio/mpeg">
+</audio>
+</li>
+<li>
+<iframe width="500px" height="300px" src="http://www.jimmyjazz.com/womens/footwear/nike-air-max-1-ultra-2-0-le-qs/908489-101?color=White&utm_source=google&utm_medium=paid_search&utm_campaign=paid_search_google_pla&scid=scplp11320542&sc_intid=11320542&gclid=Cj0KEQjwk-jGBRCbxoPLld_bp-IBEiQAgJaftWCR_AuTyxy4CQY48vCwFl8vM7KzgLHmB17O_l5A8n0aAhcV8P8HAQ" sandbox=""></iframe>
+</li>
+</ul>
+</div>
+</body>
+
+
