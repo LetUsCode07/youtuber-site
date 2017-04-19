@@ -16,10 +16,13 @@ html, body {
 
 
 }
-footer {margin: 500px 450px;
-}
 
-.social{border-radius: 50%;}
+footer{margin: 800px 450px;
+}
+  
+
+.social{border-radius: 50%;
+}
 
 
 
@@ -99,7 +102,7 @@ a.control_next {
   
   position: relative;
   opacity: 1;
-  
+
 }
 
 .title {
